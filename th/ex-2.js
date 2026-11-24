@@ -8,6 +8,13 @@
 
 // Start coding here
 
+function reverseText(text) {
+    const splitText = text.split("");
+    const reversedText = splitText.reverse();
+
+    return reversedText.join("").toLowerCase();
+}
+
 let text1 = "Techup";
 console.log(reverseText(text1)); // puhcet
 
